@@ -16,9 +16,9 @@
 
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5g00000KLmvQ" method="POST">
 
-<input type=hidden name='captcha_settings' value='{"keyname":"TreetCorpDemo","fallback":"true","orgId":"00D5g00000KLmvQ","ts":""}'>
+<input type=hidden name='captcha_settings' value='{"keyname":"TreetUpdated","fallback":"true","orgId":"00D5g00000KLmvQ","ts":""}'>
 <input type=hidden name="oid" value="00D5g00000KLmvQ">
-<input type=hidden name="retURL" value="http://https://treetcorp.com/">
+<input type=hidden name="retURL" value="http://">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -32,20 +32,15 @@
 
 <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
-<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
-
 <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-Product Main Category:<select  id="00N5g00000gI7oj" multiple="multiple" name="00N5g00000gI7oj" title="Product Main Category"><option value="Razor Blades">Razor Blades</option>
-<option value="Disposable Razors">Disposable Razors</option>
-<option value="Hybrid Razor Cartridges">Hybrid Razor Cartridges</option>
-<option value="Hybrid Razors">Hybrid Razors</option>
-<option value="Traditional Razors">Traditional Razors</option>
-</select><br>
+<label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
 
-<div class="g-recaptcha" data-sitekey="6Les0WApAAAAADefPFE3pqUUId8SHfvmwv7ybPKY"></div><br>
+<label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+
+<div class="g-recaptcha" data-sitekey="6Lft22ApAAAAAEDmmbirYtaUTs8XuDTbDwHcA2Ji"></div><br>
 <input type="submit" name="submit">
 
 </form>
